@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+* {
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0em;
+	padding: 0em;
+}
+
+body {
+	font-weight: 400;
+	font-size: 1em;
+}
+
+header img {
+	width: 30%;
+	height: auto;
+	padding: 20px;
+}
+
+.coming {
+	text-align: center;
+}
+h1 {
+	font-weight: 400;
+}
+span,
+p {
+	color: hsl(0, 93%, 68%);
+}
+span {
+	display: block;
+	font: weight 300; ;
+}
+
+h1,
+p {
+	padding: 20px 20px;
+}
+
+
+#form{
+    position: relative;
+}
+
+#email{
+    width: 60%;
+    height:auto;
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;
+	border: 1px solid hsl(0, 93%, 68%);
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+@media (min-width:800px){
+    .wrapper{
+        display: grid;
+		/*background-color: cadetblue;*/
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 110px 400px;
+		height: 100vh;
+	}
+
+	.Validation{
+		position: relative;
+	}
+
+	
+	
+	.coming,header{
+		text-align: left;
+		padding: 20px 100px;
+	}
+
+	
+	header img{
+		width: inherit;
+		height: auto;
+	}
+
+	
+
+	#email{
+		position: relative;
+		left: 15px;
+		width: 80%;
+		text-align: initial;
+		padding: 15px;
+		border: 2px solid hsl(0, 93%, 68%);
+	}
+	
+
+	.cont h1{
+		font-size: 4em;
+	} span{
+		font-weight: lighter;
+	}
+
+	#photo img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+
+
+
+
+/*.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}*/
+
+
